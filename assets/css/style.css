@@ -1,0 +1,68 @@
+
+@import "https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800";
+
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: 0 solid;
+}
+a:hover {
+    text-decoration: none;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #373737;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+body {
+    color: #999;
+    font-family: "Khula",sans-serif;
+    font-size: 15px;
+}
+.section-padding{
+    padding:80px 0;
+}
+
+
+/* class One Service box styling start */
+.single-service-box {
+    display: block;
+    border: 2px solid #e0e0e0;
+    border-radius: 3px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    color: #333;
+    padding-top: 50px;
+}
+
+.service-icon {
+    position: absolute;
+    background-color: #24d5a1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 25px;
+    left: 50%;
+    margin-left: -25px;
+    top: -25px;
+}
+
+.single-service-box p {
+    margin: 0;
+}
+
+.single-service-box h3 {
+    font-size: 22px;
+}
+
+.single-service-box:hover {
+    color: #333;
+}
+a.single-service-box:hover {
+       cursor: pointer;
+}
+/* class One Service box styling Ends */

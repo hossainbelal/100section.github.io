@@ -1,0 +1,105 @@
+
+@import "https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800";
+
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: 0 solid;
+}
+a:hover {
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #373737;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+body {
+    color: #999;
+    font-family: "Khula",sans-serif;
+    font-size: 15px;
+}
+.section-padding{
+    padding:80px 0;
+}
+
+
+/* class Three Service box styling start */
+.service-box-bg-1{background-image: url("../img/bg-1.jpg")}
+.service-box-bg-2{background-image: url("../img/bg-2.jpg")}
+.service-box-bg-3{background-image: url("../img/bg-3.jpg")}
+
+.service-box-bg {
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+    height: 200px;
+    border-radius: 2px;
+}
+.service-box-bg {
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+    height: 200px;
+    border-radius: 2px;
+}
+
+.service-box-inner {
+    border: 1px solid #ddd;
+}
+
+.service-box-bg.service-box-bg-1 {}
+
+.service-box-inner {
+    border-top: 0px solid;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.single-service-box {
+    position: relative;
+}
+
+.service-box-more-wrap {
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.service-box-inner h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #666;
+}
+
+p.service-meta {
+    opacity: .5;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+}
+
+a.bordered-btn {
+    border: 1px solid #999;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    display: inline-block;
+    color: #999;
+    padding: 7px 36px;
+    background-color: #fff;
+}
+
+
+
+/* class Three Service box styling Ends */

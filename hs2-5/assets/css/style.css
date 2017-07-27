@@ -1,0 +1,135 @@
+
+@import "https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800";
+
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: 0 solid;
+}
+a:hover {
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #373737;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+body {
+    color: #999;
+    font-family: "Khula",sans-serif;
+    font-size: 15px;
+}
+.section-padding{
+    padding:80px 0;
+}
+
+
+/* class four Service box styling start */
+.author-img {
+    position: relative;
+}
+
+.author-img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    text-align: center;
+    font-size: 16px;
+    color: #919191;
+}
+
+.author-img-hover:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: #ECECEC;
+    opacity: .8;
+    z-index: -1;
+}
+
+.author-img-hover-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.author-img-hover-inner {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px;
+}
+.author-img-hover h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #919191;
+}
+.social-links a {
+    color: #919191;
+    padding: 3px;
+    display: inline-block;
+}
+
+.single-team-box h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+}
+
+.single-team-box h3 span {
+    display: block;
+    font-size: 80%;
+    margin-top: 8px;
+}
+.author-img-hover {
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.single-team-box:hover .author-img-hover {
+    opacity: 1;
+    visibility: visible;
+}
+/* class Four Service box styling Ends */
+.author-img-hover.two {
+    visibility: hidden;
+    transition: .3s;
+    left: -100%;
+    overflow: hidden
+}
+
+.single-team-box.two:hover .author-img-hover.two {
+   left: 0;
+    visibility: visible;}
+
+
+
+.author-img-hover.three {
+    visibility: hidden;
+    transition: .3s;
+    top: -100%;
+    overflow: hidden
+}
+
+.single-team-box.three:hover .author-img-hover.three {
+   top: 0;
+    visibility: visible;}
+
+

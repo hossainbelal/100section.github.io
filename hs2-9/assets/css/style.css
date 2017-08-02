@@ -1,0 +1,120 @@
+
+@import "https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800";
+
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: 0 solid;
+}
+a:hover {
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #373737;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+body {
+    color: #999;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+}
+.section-padding{
+    padding:80px 0;
+}
+
+
+/* class Eight section without overlay styling start */
+.absolute-bg-1:after {background-image: url("../img/bbg-1.jpg")
+}
+.absolute-bg-2:after {background-image: url("../img/bbg-2.jpg")
+}
+
+.section-padding {
+    position: relative;
+    z-index: 1;
+}
+
+.section-padding.absolute-bg-1:after, .section-padding.absolute-bg-2:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 65%;
+    height: 100%;
+    content: '';
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+}
+.section-padding.absolute-bg-2:after {
+    right: auto;
+    left: 0;
+}
+
+
+.boxed-content {
+    box-shadow: 0 0 5px #ddd;
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    transition: transform .2s linear,box-shadow .2s linear;
+}
+
+.boxed-btn {
+    background-color: #FFCE44;
+    display: inline-block;
+    padding: 10px 24px;
+    color: #333;
+    margin-top: 10px;
+}
+.section-padding.absolute-bg-1, .section-padding.absolute-bg-2 {
+    margin: 50px 100px;
+}
+
+
+
+/* class Eight section with overlay styling start */
+.bg-1 {background-image: url("../img/bbg-1.jpg")
+}
+.bg-2 {background-image: url("../img/bbg-2.jpg")
+}
+.section-padding .right-bg.bg-1, .section-padding  .left-bg.bg-2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+}
+
+.right-bg.bg-1:after, .left-bg.bg-2:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: #077DB2;
+    opacity: .5;
+}
+.left-bg.bg-2 {
+    left: 0;   
+    top: 0;
+
+}
+.section-padding.for-margin {
+    margin: 50px 100px;
+}
+
+.boxed-content:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 17px 25px rgba(0,0,0,0.13);}
+  

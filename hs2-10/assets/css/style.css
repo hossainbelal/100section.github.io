@@ -1,0 +1,177 @@
+
+@import "https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800";
+
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: 0 solid;
+}
+a:hover {
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #373737;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+body {
+    color: #999;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+}
+.section-padding{
+    padding:80px 0;
+}
+
+  
+/* class ten section without overlay styling start */
+.slide-bg-1{background-image: url(../img/bg-3.jpg)}
+.slide-bg-2{background-image: url(../img/bg-2.jpg)}
+.slide-bg-3{background-image: url(../img/bg-4.jpg)}
+
+.boxed-btn, .welcome-area:after {
+    background: #005a97; /* Old browsers */
+background: -moz-linear-gradient(left, #005a97 0%, #0090b8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #005a97 0%,#0090b8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #005a97 0%,#0090b8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005a97', endColorstr='#0090b8',GradientType=1 ); /* IE6-9 */
+}
+
+.welcome-area {
+    position: relative;
+    z-index: 1;
+}
+
+.welcome-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 68%;
+    height: 100%;
+    content: '';
+    z-index: -1;
+}
+
+.logo a, .main-menu a {
+    color: #fff;
+}
+
+.logo {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-weight: 600;
+    padding-top: 11px;
+}
+
+.logo i.fa {
+    margin-right: 5px;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block;
+    position: relative;
+}
+
+.main-menu li a {
+    display: block;
+    padding: 18px 17px;
+    text-transform: uppercase;  
+    font-size: 12px;
+}
+.header-right-content a {
+    color: #333;
+}
+
+.social-icons {
+    display: inline-block;
+    margin-left: 50px;
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.header-right-content {
+    padding-top: 16px;
+}
+.header-area {
+    padding: 30px 0;
+}
+.single-slide-item {
+    height: 500px;
+    background-color: #333;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: table;
+}
+
+.slide-inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.slide-text {
+    max-width: 600px;
+    color: #fff;
+    padding: 100px;
+}
+
+h2 {}
+
+.slide-text h4 {
+    color: #74C2D9;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.slide-text h2 {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.boxed-btn {
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 30px;
+}
+.homepage-slides div.owl-nav div {
+    color: #fff;
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 20px;
+    opacity: .5;
+    font-size: 25px;
+}
+.header-phone {
+    font-size: 12px;
+}
+
+a.header-phone i.fa.fa-mobile {
+    margin-right: 5px;
+    font-size: 14px;
+}

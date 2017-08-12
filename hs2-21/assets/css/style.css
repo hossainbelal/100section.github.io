@@ -1,0 +1,66 @@
+/* class Twelve styling start
+@import "https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800";
+ */ 
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: 0 solid;
+}
+
+a:hover {
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #373737;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+
+body {
+    color: #B5B5B5;
+    font-family: "Tahoma",sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+   
+  }
+.section-padding{
+    padding:80px 0;
+}
+
+  
+/* class Twelve styling start */
+.schedule th {
+    background-color: #F0F0F0;
+    font-weight: 400;
+    color: #484848;
+    text-align: center;
+}
+
+.schedule {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.schedule th, .schedule td {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 20px;
+}
+
+.schedule h4 {
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.schedule p {
+    font-size: 14px;
+}
+.schedule .width-110 {
+    width: 110px;
+}

@@ -1,0 +1,137 @@
+/* class Twelve styling start
+@import "https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800";
+ */ 
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: 0 solid;
+}
+
+a:hover {
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #373737;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+
+body {
+    color: #B5B5B5;
+    font-family: "Tahoma",sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+   
+  }
+.section-padding{
+    padding-top:80px;
+    padding-bottom: 20px;}
+
+  
+/* class Twenty Three styling start */
+.main-menu {
+    background-color: #2C2C2C;
+    margin-bottom: 200px;
+}
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+}
+
+.main-menu li {
+    position: relative;
+    display: inline-block;
+}
+.main-menu li span {
+    position: absolute;
+    border-width: 7px;
+    right: 0;
+    color: #fff;
+    top: 50%;
+}
+.main-menu li a {
+    display: block;
+    /* font-size: 20px; */
+    font-weight: 400;
+    padding: 20px;
+    color: #fff;
+}
+.main-menu li ul {
+    position: absolute;
+    width: 227px;
+    background-color: #000000;
+    left: 0px;
+     padding: 15px 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    margin-top: 20px;
+    box-shadow: 0 0 5px #ccc;
+    }
+
+.main-menu li ul li {
+    display: block;
+}
+
+.main-menu li ul li a {
+    padding: 8px 15px;
+    color: #fff;
+}
+.main-menu li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
+.main-menu li:hover > a {
+    color: #fff;
+}
+
+.main-menu li:hover li:hover > a {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/*margin left effect*/
+.main-menu.effect-2 li ul{margin-left: 50px;}
+.main-menu.effect-2 li:hover ul { margin-left: 0;}
+
+/*Transform Skew effect*/
+.main-menu.effect-3 li ul{transform: skew(8deg)}
+.main-menu.effect-3 li:hover ul {transform: skew(0deg);}
+
+/*Transform translate effect*/
+.main-menu.effect-6 li ul {
+     transform: translateX(-270px);
+    margin-top: 0;
+}
+.main-menu.effect-6 li:hover ul {
+    transform: translateX(0px);
+}
+
+/*Transform Rotate effect*/
+.main-menu.effect-4 li ul {
+    top:0%;
+    -webkit-transform:rotateY(90deg);
+    transform:rotateY(90deg);
+}
+.main-menu.effect-4 li:hover ul {
+    top:100%;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+/*Transform Rotate effect*/
+.main-menu.effect-5 li ul {
+   transform: rotate(-140deg);
+}
+.main-menu.effect-5 li:hover ul {
+    transform: rotate(0deg);
+}

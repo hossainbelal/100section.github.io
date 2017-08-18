@@ -1,0 +1,91 @@
+/* class Twelve styling start
+@import "https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800";
+ */ 
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: 0 solid;
+}
+
+a:hover {
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #373737;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+
+body {
+    color: #B5B5B5;
+    font-family: "Tahoma",sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+   
+  }
+.section-padding{
+   padding: 150px 0;}
+
+  
+/* class Twenty Three styling start */
+.section-bg-area {
+    background-color: #F3F3F3;
+    position: relative;
+}
+
+.section-bg-area:before {
+    background-image: url(../img/bg-8.jpg);
+    left: 0;
+    top: -20%;
+    position: absolute;
+    height: 140%;
+    width: 50%;
+    content: '';
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+}
+.section-bg-area {
+    padding-left: 55%;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+
+.boxed-btn {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #9FBF42;
+    color: #fff;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.section-bg-area h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section-bg-area p {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.section-bg-area:after {
+    position: absolute;
+    right: -40px;
+    bottom: -40px;
+    width: 48.5%;
+    height: 100%;
+    content: '';
+    border: 5px solid #9FBF42;
+    z-index: -1;
+}

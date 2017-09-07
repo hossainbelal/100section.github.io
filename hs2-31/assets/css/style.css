@@ -1,0 +1,74 @@
+/* class Twelve styling start*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: 0 solid;
+}
+
+a:hover {
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #373737;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+
+body {
+    color: #B5B5B5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+   
+  }
+.section-padding{
+   padding: 100px 0;
+    margin-top:100px;}
+
+  
+/* class thirty one styling start */
+.section-black-bg {
+    background-color: #191D1C;
+}
+.section-black-bg h1 {
+    font-size: 63px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.section-black-bg h4 {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 17px;
+}
+
+.boxed-btn {
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 7px 16px;
+    color: #fff;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.boxed-btn:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #fff;
+}
+.rotage-img {
+    margin-top: -200px;
+    /* transform: rotate(-2deg); */
+}

@@ -1,0 +1,160 @@
+/* class Twelve styling start*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: 0 solid;
+}
+
+a:hover {
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #373737;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+body{
+    font-family: calibri;
+}
+
+  }
+.section-padding{
+   padding: 200px 0;
+   }
+
+  
+/* class thirty one styling start */
+.stethescope-bg-1{
+    background: url(../img/ddd.png) no-repeat scroll right bottom;
+    background-color: #F7F7F7;
+    }
+
+    .pricing-area {
+    padding: 100px 0;
+}
+.section-heading h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section-heading h2 span {
+    color: #02A4EF;
+}
+
+.section-heading p {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.section-heading {
+    margin-bottom: 80px;
+}
+.single-pricing-box {
+    background-color: #fff;
+}
+
+.pricing-header {
+    background-color: #01BCD5;
+    color: #fff;
+    position: relative;
+    padding-left: 40px;
+        padding-top: 100px;
+}
+
+.pricing-content li:before {
+    font-family: FontAwesome;
+    content: "\f046";
+}
+.stethescope-bg-1 .col-md-4 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.stethescope-bg-1 .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.tiker {background-color: #3A3D50;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding-top: 24px;
+    text-align: center;
+    top: -50px;
+    position: absolute;}
+
+.tiker span {
+    color: #01BCD5;
+    font-size: 18px;
+}
+.pricing-header h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+        margin-bottom: 0;
+    padding-bottom: 18px;
+}
+
+.pricing-header h2 strong {
+    font-size: 25px;
+}
+.color-2.pricing-header {
+    background-color: #02A4EF;
+}
+
+
+.color-3.pricing-header {
+    background-color: #2BB6F7;
+}
+.pricing-content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pricing-content li:nth-child(2n+2) {
+    background-color: #F5F6F8;
+}
+
+.pricing-content li {
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 32px;
+}
+
+.pricing-content li:before {
+    margin-right: 10px;
+}
+
+.boxed-btn {
+    border: 1px solid #01BCD5;
+    padding: 7px 20px;
+    color: #01BCD5;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: .3s;
+}
+.pricing-btn {
+    padding: 20px 20px 20px 29px;
+    border-bottom: 1px solid #F5F6F8;
+}
+.pricing-content, .pricing-btn {
+    border-left: 1px solid #F5F6F8;
+}
+.col-md-4:nth-child(3) .pricing-content, .col-md-4:nth-child(3) .pricing-btn {
+    border-right: 1px solid #F5F6F8;
+}
+.boxed-btn:hover {
+    background-color: #01bcd5;
+    color: #fff;
+}

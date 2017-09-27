@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i|Poppins:300,400,500,600,700');a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+
+a:hover {
+	text-decoration: none;
+}
+a:hover{
+	cursor: pointer;
+}
+img {
+	height: auto;
+	max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #373737;
+	font-weight: 400;
+	margin: 0 0 15px;
+	font-family: 'Asiyah Script';
+}
+
+body {
+	color: #B5B5B5;
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	line-height: 1.8;
+   
+  }
+
+.section-padding{
+	padding: 100px 0;
+	
+}
+
+.shadow-section {background-image: url("../img/resort.jpg")}
+
+
+
+
+.shadow-section {
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+.shadow-section {
+    padding-top: 50px;
+    padding-bottom: 200px;
+    position: relative;
+    z-index: 1;
+    }
+.shadow-section:after{
+position: absolute;
+top: 0;
+left: 0;
+content: '';
+width: 100%;
+height: 100%;
+z-index: -1;
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+
+}
+
+
+.shadow-section-content p {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+p.pricing-text {
+    font-size: 15px;
+    font-weight: 700;
+    color: #D8085E;
+}
+.boxed-btn {
+    display: inline-block;
+    background-color: #D50961;
+    padding: 5px 35px;
+    color: #fff;
+    border-radius: 5px;
+    transition:.3s;
+}
+.boxed-btn:hover{
+    background-color: #fff;
+    color: #D50961;
+}
+
+
+
+.shadow-section-content h2 {
+    margin: 0;
+    color: #000;
+}
+.single-counter-item {
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    text-align: center;
+    padding: 16px 0 5px 0;
+    margin: 5px;
+    position: relative;
+    z-index: 2;    
+}
+
+.single-counter-item i.fa {
+    font-size: 40px;
+    color: #888888;
+    margin-bottom: 11px;
+}
+
+.single-counter-item h2 {font-family: calibri;font-size: 22px;font-weight: 900;color: #D8085E;margin-bottom: 6px;}
+
+
+.single-counter-item p {
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 0;
+}
+.counter-section {
+    margin-top: -65px;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Asiyah Script';
+    src: url('../fonts/AsiyahScript.eot');
+    src: url('../fonts/AsiyahScript.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AsiyahScript.woff') format('woff'),
+        url('../fonts/AsiyahScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

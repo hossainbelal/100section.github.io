@@ -1,0 +1,110 @@
+/***********************
+Template Name: Factorysite;
+************************/
+
+/********************************
+CSS Index 
+
+*Base CSS
+
+********************************/
+
+/***** BASE CSS START*****/
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700');
+
+body {
+    color: #999;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.header-top {
+    background-color: #0B0B0B;
+}
+
+.header-top, .header-top a {
+    color: #f5f3f3;
+}
+
+.header-top i.fa {
+    color: #fc721e;
+    padding-right: 7px;
+}
+.header-top i.fa-phone {
+    margin-left: 20px;
+}
+
+.header-top i.fa-phone {}
+
+.header-top span {
+   display: inline-block;
+   padding-left: 10px;
+}
+
+.social-icon a {
+    height: 33px;
+    width: 33px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 33px;
+    display: inline-block;
+    border-radius: 50%;
+    transition: .3s; 
+
+}
+
+.social-icon i.fa {padding-right: 0;color: #fff;}
+
+.social-icon a:hover {
+    background-color: #fc721e;
+    border-color: #fc721e;
+}
+h2.site-logo {
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0b0b0b;
+    border: 1px solid #0b0b0b;
+    padding: 10px 15px;
+    margin-bottom: 0;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 5px 0;
+    list-style: none;
+}
+
+.main-menu ul li {
+    display: inline-block;
+}
+
+.main-menu li a {
+    display: block;
+    color: #0b0b0b;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid transparent;
+    padding: 8px 17px;
+    transition: .3s;
+}
+.main-menu li:hover >a {
+    border: 1px solid #fc721e;
+}
+.header-area {
+    padding: 16px 0;
+}
+span.ad {
+    padding-top: 6px;
+}
+
+.header-top {
+    padding: 13px 0;
+}
